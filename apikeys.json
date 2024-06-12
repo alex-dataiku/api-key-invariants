@@ -23,5 +23,54 @@
     "key": "sha256:vGhfG7Z4:e53805b3b402a805978f34d2c4937ff5fc67e1cf4bee1a8d790e14f86b685e05",
     "label": "Key for Web app webapp2(1lYXxuV)",
     "createdOn": 1718215613963
+  },
+  {
+    "execSQLLike": false,
+    "localDatasets": [
+      {
+        "datasets": [
+          "__rw__dataset1__",
+          "__rw__dataset2__"
+        ],
+        "privileges": [
+          "READ_DATA",
+          "WRITE_DATA",
+          "READ_METADATA",
+          "WRITE_METADATA",
+          "READ_SCHEMA",
+          "WRITE_SCHEMA"
+        ]
+      },
+      {
+        "datasets": [
+          "__r__dataset__"
+        ],
+        "privileges": [
+          "READ_DATA",
+          "READ_METADATA",
+          "READ_SCHEMA"
+        ]
+      }
+    ],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": true,
+      "writeProjectContent": false,
+      "exportDatasetsData": true,
+      "readDashboards": true,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "publishToDataCollections": false,
+      "shareToWorkspaces": true,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "id": "KxS2sxoBZASMLoHb",
+    "key": "sha256:uUjq5UDg:ae9e4175b0d8d55cbee57ac94de4909bd067105fd63d1e6d4b8d8e107a276423",
+    "label": "New key",
+    "createdOn": 1718216605216
   }
 ]
