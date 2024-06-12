@@ -1,0 +1,59 @@
+{
+  "type": "STANDARD",
+  "hasLegacyBackendURL": false,
+  "params": {
+    "backendEnabled": false,
+    "enableJavascriptModules": false,
+    "autoStartBackend": false,
+    "hideJSSecurityPanel": false,
+    "envSelection": {
+      "envMode": "INHERIT"
+    },
+    "nbProcesses": 1,
+    "libraries": [
+      "jquery",
+      "dataiku"
+    ],
+    "infra": {
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      },
+      "overrideGlobalK8sExposition": false,
+      "exposition": {
+        "type": "local_process",
+        "params": {}
+      },
+      "scaling": {
+        "initialReplicas": 1,
+        "progressDeadlineSeconds": 600,
+        "hpa": false,
+        "hpaTargetCPUPercent": 0,
+        "hpaMetrics": [],
+        "hpaMinPods": 0,
+        "hpaMaxPods": 0,
+        "hpaAnnotations": []
+      },
+      "deploymentModifier": {
+        "config": {}
+      }
+    },
+    "forceAuthentication": false
+  },
+  "config": {},
+  "name": "webapp1",
+  "apiKey": "e:AES:X2:4JWT02M7yXms5at8NevoT1dTIoSeHS+8xaQkozyj44mC4ftshKd6m01fWzxdQTzJ7nH2/N8Ez5Mo1ElSUJKDXO0V/ZmScjjUOvACnwuhshsRnvm5JvvT",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1718215613971,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  },
+  "customFields": {},
+  "isVirtual": false
+}
