@@ -26,32 +26,7 @@
   },
   {
     "execSQLLike": false,
-    "localDatasets": [
-      {
-        "datasets": [
-          "__rw__dataset1__",
-          "__rw__dataset2__"
-        ],
-        "privileges": [
-          "READ_DATA",
-          "WRITE_DATA",
-          "READ_METADATA",
-          "WRITE_METADATA",
-          "READ_SCHEMA",
-          "WRITE_SCHEMA"
-        ]
-      },
-      {
-        "datasets": [
-          "__r__dataset__"
-        ],
-        "privileges": [
-          "READ_DATA",
-          "READ_METADATA",
-          "READ_SCHEMA"
-        ]
-      }
-    ],
+    "localDatasets": [],
     "projectPrivileges": {
       "admin": false,
       "readProjectContent": true,
