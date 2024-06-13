@@ -23,5 +23,29 @@
     "key": "sha256:vGhfG7Z4:e53805b3b402a805978f34d2c4937ff5fc67e1cf4bee1a8d790e14f86b685e05",
     "label": "Key for Web app webapp2(1lYXxuV)",
     "createdOn": 1718215613963
+  },
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": true,
+      "writeProjectContent": false,
+      "exportDatasetsData": true,
+      "readDashboards": true,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "publishToDataCollections": false,
+      "shareToWorkspaces": true,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "id": "XUuLxHVYCmmde7gC",
+    "key": "sha256:rZSRnTca:8806036e674c30dc5a7822a0c664fcb215f956b31df7e2be9a432358c79a1af8",
+    "label": "New key",
+    "createdOn": 1718263813611
   }
 ]
